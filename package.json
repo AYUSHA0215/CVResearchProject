@@ -1,0 +1,23 @@
+{
+  "name": "three-base",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "vite build",
+    "build-dev": "vite preview",
+    "deploy": "vite build && yarn gh-pages -d dist -b dist -m \"dist commit\"",
+    "start": "vite"
+  },
+  "packageManager": "yarn@3.0.0",
+  "devDependencies": {
+    "@tweakpane/core": "^1.0.8",
+    "@types/three": "^0.136.0",
+    "gh-pages": "^3.2.3",
+    "typescript": "^4.5.4",
+    "vite": "^2.7.10"
+  },
+  "dependencies": {
+    "@tweakpane/plugin-essentials": "^0.1.4",
+    "three": "^0.136.0",
+    "tweakpane": "^3.0.7"
+  }
+}
